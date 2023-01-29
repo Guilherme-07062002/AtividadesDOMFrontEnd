@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>VERIFICADOR DE IDADES</h1>
+    <main>
+        <h2>SALA DE AULA - APRENDENDO DOM</h2>
+        <fieldset>
+            <legend>Verificador de Idades</legend>
+            <div id="divIdade">
+                <label for="inputIdade">Ano de Nascimento: </label>
+                <input type="number" name="inputIdade" id="inputIdade">
+            </div>
+
+            <div id="divSexo">
+                <label for="masc">Sexo: </label>
+
+                <input name="radioGen" type="radio" id="masc">
+                <label for="masc">Masculino</label>
+
+                <input name="radioGen" type="radio" id="fem">
+                <label for="fem">Feminino</label>
+            </div>
+            <input type="button" value="MODIFICAR" onclick="Verifica()">
+            <div id="divRes">
+                <p id="textRes">A resposta será exibida aqui.</p>
+
+            </div>
+        </fieldset>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(177, 149, 73);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    padding: 13px;
+    border-radius: 5px;
+    width: 26vw;
+}
+
+fieldset {
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input[type='button'] {
+    width: 25%;
+    height: 25px;
+}
+
+div#inputs {
+    display: block;
+}

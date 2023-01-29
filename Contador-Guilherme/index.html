@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CONTADOR</h1>
+    <main>
+        <fieldset>
+            <legend>Configure uma sequência</legend>
+
+            <div id="input1">
+                <label for="inicio">Inicio: </label>
+                <input type="number" name="inicio" id="inicio">
+            </div>
+            <div id="input2">
+                <label for="fim">Fim: </label>
+                <input type="number" name="fim" id="fim">
+            </div>
+            <div id="input3">
+                <label for="passo">Passo: </label>
+                <input type="number" name="passo" id="passo">
+            </div>
+
+            <input type="button" value="CONTAR" onclick="Contagem()">
+            <div id="divRes">
+                <p id="textRes">A resposta será exibida aqui.</p>
+
+            </div>
+        </fieldset>
+    </main>
+    <p>by: Guilherme Gomes</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
